@@ -17,10 +17,10 @@ public class New {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(name="title", length =150, nullable=false)
+    @Column(name="title", length =800, nullable=false)
     private String title;
 
-    @Column(name="description", length =200, nullable=false)
+    @Column(name="description", length =800, nullable=false)
     private String description;
 
     @Column(name="link", length =800, nullable=false)

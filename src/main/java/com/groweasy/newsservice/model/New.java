@@ -23,7 +23,7 @@ public class New {
     @Column(name="description", length =200, nullable=false)
     private String description;
 
-    @Column(name="link", length =200, nullable=false)
+    @Column(name="link", length =800, nullable=false)
     private String link;
 
     @Column(name="image", length =200, nullable=false)
